@@ -105,6 +105,7 @@ public class ParentLayout extends CoordinatorLayout implements NestedScrollingPa
     @Override
     public void onNestedScroll(@NonNull View target, int dxConsumed, int dyConsumed, int dxUnconsumed, int dyUnconsumed, int type) {
         Log.d("xbase", "滚动后: " + target.toString() + ",type:" + type);
+        mTopView.scrollBy(dxUnconsumed,dyUnconsumed);
     }
 
     @Override
