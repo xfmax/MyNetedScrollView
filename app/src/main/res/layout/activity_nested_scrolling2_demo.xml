@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.jennifer.andy.nestedscrollingdemo.view.GrandLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--展示图片-->
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_background" />
+
+        <!--标题栏-->
+        <include layout="@layout/layout_common_toolbar" />
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/iv"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:text="3453" />
+        </LinearLayout>
+
+        <com.jennifer.andy.nestedscrollingdemo.view.ParentLayout
+            android:layout_width="match_parent"
+            android:id="@+id/sick_layout"
+            android:layout_height="match_parent">
+
+
+                <View
+                    android:id="@+id/banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp" />
+                <!--TabLayout-->
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/sl_tab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    app:tabIndicatorColor="@color/colorPrimaryDark" />
+                <!--ViewPager-->
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/sl_viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#fff" />
+
+        </com.jennifer.andy.nestedscrollingdemo.view.ParentLayout>
+    </com.jennifer.andy.nestedscrollingdemo.view.GrandLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+
+Lsquid:S1172!".Remove this unused method parameter "context".(ş¢š½8Ÿø‹şê-
+esquid:UselessImportCheck"5Remove this unused import 'android.view.MotionEvent'.(˜šËŞúÿÿÿÿ8õ÷Ìë-
+isquid:S1192S"FDefine a constant instead of duplicating this literal "xbase" 3 times.(…ìÍ±ÿÿÿÿÿ8ñ‡‚ë-
+isquid:UselessImportCheck
+"?Remove this unused import 'android.support.v4.view.ViewCompat'.(ÿÎÃ8÷‚‡‚ë-
+¤squid:S1186e"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ïøëÿÿÿÿÿ8¨¸¤€ë-
+hsquid:UselessImportCheck"8Remove this unused import 'android.widget.LinearLayout'.(çîšçúÿÿÿÿ8“ŠÑ€ë-
+¤squid:S1186`"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(³Çš“ıÿÿÿÿ8ŞÛ¬€ë-
+usquid:S1450"WRemove the "mTopView" field and declare it as a local variable in the relevant methods.(Ôãê8òï×€ë-
+Jsquid:S1068",Remove this unused "mTopView" private field.(Ôãê8š·Î€ë-

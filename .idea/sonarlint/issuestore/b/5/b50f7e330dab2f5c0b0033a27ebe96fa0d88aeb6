@@ -1,0 +1,6 @@
+
+|squid:S1450$"_Remove the "mStickyNavLayout" field and declare it as a local variable in the relevant methods.(ç§œv8¤ÀÎÿê-
+nsquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(ƒñ¶‚úÿÿÿÿ8¤ÀÎÿê-
+jsquid:MaximumInheritanceDepth"<This class has 7 parents which is greater than 5 authorized.(äòÿýÿÿÿÿ
+isquid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(×Ÿó«8¤ÀÎÿê-
+Qsquid:S1068$"4Remove this unused "mStickyNavLayout" private field.(ç§œv8¤ÀÎÿê-
