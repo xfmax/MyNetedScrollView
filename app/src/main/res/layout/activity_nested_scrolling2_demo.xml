@@ -13,37 +13,29 @@
             android:id="@+id/iv"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:scaleType="fitXY"
             android:minHeight="50dp"
+            android:scaleType="fitXY"
             android:src="@drawable/ic_launcher_background" />
 
         <!--标题栏-->
         <include layout="@layout/layout_common_toolbar" />
 
-        <LinearLayout
-            android:id="@+id/ll"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_below="@+id/iv"
-            android:gravity="center">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorAccent"
-                android:text="3453" />
-        </LinearLayout>
 
         <com.jennifer.andy.nestedscrollingdemo.view.ParentLayout
-            android:layout_width="match_parent"
             android:id="@+id/sick_layout"
+            android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <View
                     android:id="@+id/banner"
                     android:layout_width="match_parent"
-                    android:layout_height="300dp" />
+                    android:layout_height="100dp" />
                 <!--TabLayout-->
                 <android.support.design.widget.TabLayout
                     android:id="@+id/sl_tab"
@@ -57,7 +49,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="#fff" />
-
+            </LinearLayout>
         </com.jennifer.andy.nestedscrollingdemo.view.ParentLayout>
     </com.jennifer.andy.nestedscrollingdemo.view.GrandLayout>
 </RelativeLayout>
